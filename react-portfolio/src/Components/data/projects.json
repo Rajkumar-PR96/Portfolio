@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Spotify-Clone",
+        "image": "projects/spotify.jpg",
+        "description": "This is a project made to learn the latest",
+        "skills": ["HTML", "Tailwind CSS", "JavaScript", "React"]
+    },
+    {
+        "title": "Portfolio",
+        "image": "projects/portfolio.png",
+        "description": "This is a project made to learn the latest",
+        "skills": ["HTML", "CSS", "JavaScript", "React"]
+    },
+    {
+        "title": "E-Commerce Website",
+        "image": "projects/E-commerce.jpg",
+        "description": "This is a project made to learn the latest",
+        "skills": ["HTML", "CSS", "JavaScript", "React"]
+    }
+]

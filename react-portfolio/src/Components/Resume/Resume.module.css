@@ -1,0 +1,85 @@
+@import '../../vars.css';
+
+.container{
+    position: relative;
+    background-color: rgba(12, 12, 12, 0.6);
+    border-radius: 15px;
+    padding: 40px;
+    margin-top: 129px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    
+}
+.title{
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+}
+
+/* .aboutImage{
+    width: 35%;
+    
+} */
+.resumeImage{
+    color: var(--color-text);
+    width: 250px;
+    height: 320px;
+    border-radius: 10px;
+    
+}
+.conten{
+    color: var(--color-text);
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+.resumeDownloadTitle{
+    font-size: 25px;
+    border-bottom: 1px solid var(--color-primary);
+    border-width:3px;
+    width: 95px;
+    
+    padding-bottom: 2px;
+    color: brown;
+}
+.resumeView{
+    margin-top: 5px;
+}
+.resumeView a{
+    background: var(--color-primary);
+    padding: 5px;
+    border-radius: 5px;
+    color: var(--color-text);
+    outline: none;
+    border: none;
+    font-size: 18px;
+    margin-left: 4px;
+    width: 150px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.resumeView a:hover{
+    outline: auto;
+}
+
+@media screen and (max-width:830px) {
+    .conten{
+        flex-direction: column;
+    }
+    .conten div{
+        display: flex;
+       flex-direction: column;
+    
+    }
+    .resumeView a{
+        width: 100px;
+        padding: 2px;
+        font-size: 15px;
+
+    }
+}

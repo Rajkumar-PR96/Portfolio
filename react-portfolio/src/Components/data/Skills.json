@@ -1,0 +1,34 @@
+[
+    {
+        "title":"HTML",
+        "image":"skills/html.png"
+    },
+    {
+        "title":"CSS",
+        "image":"skills/css.png"
+    },
+    {
+        "title":"JavaScript",
+        "image":"skills/javascript.png"
+    },
+    {
+        "title":"React",
+        "image":"skills/react.png"
+    },
+    {
+        "title":"Bootstrap",
+        "image":"skills/bootstrap.png"
+    },
+    {
+        "title":"Node",
+        "image":"skills/node.png"
+    },
+    {
+        "title":"Express",
+        "image":"skills/express.png"
+    },
+    {
+        "title":"MongoDB",
+        "image":"skills/mongodb.png"
+    }
+]
